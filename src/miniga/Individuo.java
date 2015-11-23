@@ -59,7 +59,10 @@ public class Individuo implements Comparable<Individuo>{
 
     @Override
     public String toString() {
-        return "Individuo{" + "cromosomaX=" + cromosomaX + ", cromosomaY=" + cromosomaY + ", fitness=" + fitness + '}';
+        //if (cromosomaX==12 && cromosomaY == 9)
+           // return "(12,9)";
+        return "("+cromosomaX+","+cromosomaY+")";
+        //return "";
     }
 
     @Override
